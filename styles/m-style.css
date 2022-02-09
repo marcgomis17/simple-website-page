@@ -1,0 +1,144 @@
+@media screen and (max-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    body{
+        overflow-x: hidden;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .body{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .scale{
+        transform: none;
+    }
+
+    .header{
+        grid-area: header;
+    }
+    
+    #menu-icon{
+        display: block;
+    }
+
+    #logo-zone img{
+        margin-left: -60%;
+    }
+
+    .banniere{
+        background: none;
+    }
+
+    #text{
+        color: #000;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #text h2{
+        margin-top: -0.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 300%;
+        font-weight: bolder;
+        color: #252b42;
+    }
+
+    #text p{
+        margin-top: -2%;
+    }
+
+    #text p, #text h3{
+        font-size: x-large;
+        color: #737373;
+    }
+
+    #buttons{
+        display: grid;
+        grid-template-columns: repeat(auto, 1fr);
+        width: 100%;
+        justify-items: center;
+    }
+
+    .btn{
+        width: 35%;
+        height: 70px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        border-radius: 30px;
+        font-size: large;
+        font-weight: bold;
+        color: #fa4a0c;
+        background: none;
+        border: 2px solid #fa4a0c;
+    }
+
+    .btn:hover{
+        background-color: #fa4a0c;
+        color: #fff;
+    }
+
+    picture{
+        margin-top: 20%;
+    }
+
+    #app-title{
+        grid-area: spacer;
+        margin-top: 5%;
+    }
+
+    .spacer{
+        grid-area: app-title;
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .spacer hr{
+        height: 5px;
+        margin: 0;
+        background-color: #c2c2c2;
+    }
+    .m-app-description{
+        grid-area: app-description;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .m-app-description h3{
+        color: #fa4a0c;
+    }
+
+    .m-app-description h1{
+        color: #252b42;
+    }
+
+    .m-app-description p{
+        color: #737373;
+    }
+
+    #m-first-description, #m-second-description{
+       margin-top: 5%;
+       margin-left: 20%;
+       margin-right: 20%;
+    }
+
+    .m-footer{
+        grid-area: footer;
+        display: grid;
+        margin-top: 10%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
